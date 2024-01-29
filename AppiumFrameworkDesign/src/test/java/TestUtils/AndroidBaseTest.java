@@ -35,9 +35,11 @@ public class AndroidBaseTest extends AppiumUtils {
         cap.setCapability("platformName", "Android");
         cap.setCapability("automationName", "UiAutomator2");
         cap.setCapability("autoGrantPermissions", "true");
-        cap.setCapability("appPackage", "ca.manypenny");
-        cap.setCapability("appActivity", "ca.manypenny.MainActivity");
-        cap.setCapability("app", "/Users/dhirajkailasshelke/Downloads/app-release (12).apk");
+        cap.setCapability("appPackage", "com.androidsample.generalstore");
+        cap.setCapability("appActivity", "com.androidsample.generalstore.MainActivity");
+//        cap.setCapability("appPackage", "ca.manypenny");
+//        cap.setCapability("appActivity", "ca.manypenny.MainActivity");
+//        cap.setCapability("app", "/Users/dhirajkailasshelke/Downloads/app-release (12).apk");
         cap.setCapability("chromedriverExecutable", "/Users/dhirajkailasshelke/Downloads/chromedriver 2");
 
 

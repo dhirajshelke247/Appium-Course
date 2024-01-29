@@ -20,13 +20,13 @@ public class GeneralStoreAppTest extends AndroidBaseTest {
 
         FormPage formPage = new FormPage(driver);
 
-        formPage.clickLogin();
+//        formPage.clickLogin();
 
-//        formPage.setCountryCode("Belgium");
-//        formPage.setNameField("Dhiraj");
-//        formPage.setGender("Male");
-//        formPage.submitForm();
-//        Thread.sleep(2000);
+        formPage.setCountryCode("Belgium");
+        formPage.setNameField("Dhiraj");
+        formPage.setGender("Male");
+        formPage.submitForm();
+        Thread.sleep(2000);
 
     }
 
