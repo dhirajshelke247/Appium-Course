@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="utils.Listeners"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="/Users/dhirajkailasshelke/IdeaProjects/AppiumFrameworkDesign">
+        <classes>
+            <class name="androidTests.GeneralStoreAppTest">
+                <methods>
+                    <include name="fillform"/>
+                    <include name="productCatalogue"/>
+                    <include name="cartPage"/>
+                    <include name="webView"/>
+                </methods>
+            </class>
+            <class name="iOSTests.iOSAppTest">
+                <methods>
+                  <include name="homePageTest"/>-->
+                   <include name="AlertViewsPageTest"/>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
